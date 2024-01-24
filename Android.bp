@@ -35,6 +35,13 @@ filegroup {
 }
 
 filegroup {
+    name: "ats_olc_server_local_mode_prebuilt",
+    srcs: [
+        "ats_olc_server_local_mode_deploy.jar",
+    ],
+}
+
+filegroup {
     name: "ats_olc_server_prebuilt",
     srcs: [
         "ats_olc_server_deploy.jar",
@@ -50,5 +57,11 @@ java_import_host {
 java_import_host {
     name: "ats_olc_server_deploy",
     jars: [":ats_olc_server_prebuilt"],
+    installable: true,
+}
+
+java_import_host {
+    name: "ats_olc_server_local_mode_deploy",
+    jars: [":ats_olc_server_local_mode_prebuilt"],
     installable: true,
 }
