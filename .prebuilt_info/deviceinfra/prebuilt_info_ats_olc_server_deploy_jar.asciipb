@@ -1,11 +1,11 @@
 drops {
   dest_file: "ats_olc_server_deploy.jar"
-  version: "750-20240627-044439"
+  version: "786-20240728-040026"
   version_group: "deviceinfra"
   git_project: "platform/tools/deviceinfra/prebuilts"
   local_drop {
     source_file: "/tmp/deviceinfra_kokoro_release/drop/ats_olc_server_deploy.jar"
   }
-  git_branch: "main"
+  git_branch: "android12L-tests-dev"
   transform: TRANSFORM_NONE
 }
