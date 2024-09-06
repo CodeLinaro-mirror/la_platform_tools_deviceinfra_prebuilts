@@ -6,6 +6,6 @@ drops {
   local_drop {
     source_file: "/tmp/deviceinfra_kokoro_release/drop/ats_local_runner_deploy.jar"
   }
-  git_branch: "main"
+  git_branch: "aosp-24Q3-ts-dev"
   transform: TRANSFORM_NONE
 }
