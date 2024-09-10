@@ -1,11 +1,11 @@
 drops {
   dest_file: "deviceinfra_github_version.txt"
-  version: "825-20240829-040331"
+  version: "832-20240904-083521"
   version_group: "deviceinfra"
   git_project: "platform/tools/deviceinfra/prebuilts"
   local_drop {
     source_file: "/tmp/deviceinfra_kokoro_release/drop/deviceinfra_github_version.txt"
   }
-  git_branch: "main"
+  git_branch: "aosp-24Q3-ts-dev"
   transform: TRANSFORM_NONE
 }
