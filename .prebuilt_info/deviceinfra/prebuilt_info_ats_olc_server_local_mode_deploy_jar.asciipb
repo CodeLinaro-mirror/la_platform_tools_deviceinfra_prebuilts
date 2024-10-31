@@ -1,11 +1,11 @@
 drops {
   dest_file: "ats_olc_server_local_mode_deploy.jar"
-  version: "825-20240829-040331"
+  version: "902-20241030-040408"
   version_group: "deviceinfra"
   git_project: "platform/tools/deviceinfra/prebuilts"
   local_drop {
     source_file: "/tmp/deviceinfra_kokoro_release/drop/ats_olc_server_local_mode_deploy.jar"
   }
-  git_branch: "aosp-24Q3-ts-dev"
+  git_branch: "main"
   transform: TRANSFORM_NONE
 }
