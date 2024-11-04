@@ -1,11 +1,11 @@
 drops {
   dest_file: "ats-local-runner"
-  version: "832-20240904-083521"
+  version: "903-20241031-040029"
   version_group: "deviceinfra"
   git_project: "platform/tools/deviceinfra/prebuilts"
   local_drop {
     source_file: "/tmp/deviceinfra_kokoro_release/drop/ats-local-runner"
   }
-  git_branch: "aosp-24Q3-ts-dev"
+  git_branch: "main"
   transform: TRANSFORM_NONE
 }
