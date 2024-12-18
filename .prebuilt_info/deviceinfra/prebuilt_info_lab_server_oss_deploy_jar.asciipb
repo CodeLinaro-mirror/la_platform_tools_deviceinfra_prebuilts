@@ -1,11 +1,11 @@
 drops {
   dest_file: "lab_server_oss_deploy.jar"
-  version: "832-20240904-083521"
+  version: "959-20241216-040029"
   version_group: "deviceinfra"
   git_project: "platform/tools/deviceinfra/prebuilts"
   local_drop {
     source_file: "/tmp/deviceinfra_kokoro_release/drop/lab_server_oss_deploy.jar"
   }
-  git_branch: "aosp-24Q3-ts-dev"
+  git_branch: "main"
   transform: TRANSFORM_NONE
 }
