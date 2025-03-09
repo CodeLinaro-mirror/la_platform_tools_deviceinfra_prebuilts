@@ -1,6 +1,6 @@
 drops {
   dest_file: "deviceinfra_github_version.txt"
-  version: "1041-20250228-021153"
+  version: "1051-20250306-204244"
   version_group: "deviceinfra"
   git_project: "platform/tools/deviceinfra/prebuilts"
   local_drop {
