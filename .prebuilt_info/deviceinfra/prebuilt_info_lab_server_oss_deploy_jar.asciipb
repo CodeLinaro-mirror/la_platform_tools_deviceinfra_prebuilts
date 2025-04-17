@@ -6,6 +6,6 @@ drops {
   local_drop {
     source_file: "/tmp/deviceinfra_kokoro_release/drop/lab_server_oss_deploy.jar"
   }
-  git_branch: "main"
+  git_branch: "25Q2-release"
   transform: TRANSFORM_NONE
 }
