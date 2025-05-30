@@ -6,6 +6,6 @@ drops {
   local_drop {
     source_file: "/tmp/deviceinfra_kokoro_release/drop/deviceinfra_build_version.textproto"
   }
-  git_branch: "android14-tests-dev"
+  git_branch: "android15-tests-dev"
   transform: TRANSFORM_NONE
 }
