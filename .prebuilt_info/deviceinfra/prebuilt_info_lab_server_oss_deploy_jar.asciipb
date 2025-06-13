@@ -1,6 +1,6 @@
 drops {
   dest_file: "lab_server_oss_deploy.jar"
-  version: "1163-20250602-040032"
+  version: "1170-20250609-040203"
   version_group: "deviceinfra"
   git_project: "platform/tools/deviceinfra/prebuilts"
   local_drop {
