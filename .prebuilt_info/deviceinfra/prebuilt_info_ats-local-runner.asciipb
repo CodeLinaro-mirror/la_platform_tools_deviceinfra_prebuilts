@@ -1,6 +1,6 @@
 drops {
   dest_file: "ats-local-runner"
-  version: "1436-20260209-040804"
+  version: "1461-20260302-040025"
   version_group: "deviceinfra"
   git_project: "platform/tools/deviceinfra/prebuilts"
   local_drop {
