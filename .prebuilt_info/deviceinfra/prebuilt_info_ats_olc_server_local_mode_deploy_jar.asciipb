@@ -1,6 +1,6 @@
 drops {
   dest_file: "ats_olc_server_local_mode_deploy.jar"
-  version: "1492-20260330-224411"
+  version: "1507-20260413-040050"
   version_group: "deviceinfra"
   git_project: "platform/tools/deviceinfra/prebuilts"
   local_drop {
