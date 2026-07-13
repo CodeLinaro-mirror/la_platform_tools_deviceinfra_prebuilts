@@ -1,6 +1,6 @@
 drops {
   dest_file: "deviceinfra_build_version.textproto"
-  version: "1585-20260629-041054"
+  version: "1596-20260706-040026"
   version_group: "deviceinfra"
   git_project: "platform/tools/deviceinfra/prebuilts"
   local_drop {
