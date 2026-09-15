@@ -1,7 +1,7 @@
 # proto-file: third_party/deviceinfra/src/devtools/mobileharness/shared/version/proto/version.proto
 # proto-message: BuildVersion
 
-github_version: "9afdc499c674fed61124c6121892765a95123ee5"
-google_version: 969750249
+github_version: "b781b9879f36dceeb5259f84ae8d3e1592c91413"
+google_version: 977382014
 github_branch: "main"
-kokoro_build: 1654
+kokoro_build: 1669
