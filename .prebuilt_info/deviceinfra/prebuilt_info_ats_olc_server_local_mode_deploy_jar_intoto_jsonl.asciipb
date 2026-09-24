@@ -1,0 +1,11 @@
+drops {
+  dest_file: "ats_olc_server_local_mode_deploy.jar.intoto.jsonl"
+  version: "1683-20260920-040022"
+  version_group: "deviceinfra"
+  git_project: "platform/tools/deviceinfra/prebuilts"
+  local_drop {
+    source_file: "/tmp/deviceinfra_kokoro_release/drop/provenance.intoto.jsonl"
+  }
+  git_branch: "android14-tests-dev"
+  transform: TRANSFORM_NONE
+}
